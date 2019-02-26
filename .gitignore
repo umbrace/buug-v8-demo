@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/v8Demo/App_Data/TEMP/
+/v8Demo/App_Data/cache/
+/v8Demo/App_Data/NuGetBackup/

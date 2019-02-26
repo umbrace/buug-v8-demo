@@ -1,0 +1,16 @@
+﻿{
+    javascript: [ "~/App_Plugins/MyContentApp/mycontentapp.controller.js" ],
+
+    contentApps: [
+        {
+            "name": "Cake", // required
+            "alias": "appTest", // required
+            "weight": 200, // optional, default is 0, use values between -99 and +99 (Content is -100, Info is 100)
+            "icon": "icon-cupcake", // required
+            "view": "~/App_Plugins/MyContentApp/mycontentapp.html", // required
+            "show": [ // optional, default is always show
+                "+content/contact"
+            ]
+        }
+    ]
+}
